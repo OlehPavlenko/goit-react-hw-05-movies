@@ -1,0 +1,22 @@
+.CastsList {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.CastsItem {
+    margin: 5px;
+    outline: 1px solid gray;
+    flex-basis: calc(100% / 5 - 10px);
+    transition: transform 0.25s ease-in-out;
+}
+
+.CastsItem:hover {
+    transform: scale(1.01);
+}
+
+.CastsItem>img {
+    width: 100px;
+}

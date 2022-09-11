@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    list-style: none;
+}
+
+.navLink {
+    color: black;
+    margin-left: 20px;
+    text-decoration: unset;
+    font-size: 30px;
+}
+
+.navActive {
+    color: blue;
+}
+
+.link {
+    color: black;
+    margin-left: 20px;
+    text-decoration: unset;
+    margin-right: 20px;
+}
